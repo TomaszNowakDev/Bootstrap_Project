@@ -27,3 +27,18 @@ body, html {
     position: absolute;
     right: 0;
 }
+
+.my-map {
+    background-color: #000;
+    height: 570px;
+}
+
+.row-map {
+    height: 80vh;
+    width: 800px;
+}
+
+iframe {
+    height: 80vh;
+    width: 100%;
+}
