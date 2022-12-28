@@ -117,13 +117,34 @@
           </div>
         </div>
 
+        <div class="container border">
+          <h3 class="text-center">Question Form</h3>
+          <form class="text-center" action="mailto:patimex@poczta.onet.pl" method="post" enctype="text/plain" name="email">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="name" class="form-label" >Name</label>
+                <input id="name" type="text" placeholder=" your name" class="form-control">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input id="email" type="email" class="form-control" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="Textarea" class="form-label">Message or Question</label>
+              <textarea id="Textarea" class="form-control" placeholder="Type your question here." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success mb-3">Submit</button>
+            <button type="reset" class="btn btn-danger mb-3">Reset</button>
+          </form>
+        </div>
 
         </main>
         <footer>
           <div class="container">
             <hr>
             <p class="text-center">
-                &copy; Copyright by Patimex | Designed by Tomasz Nowak | Client-Side Web Development | Project 2.
+              &copy; Copyright by Patimex | Designed by Tomasz Nowak | Client-Side Web Development | Project 2.
             </p>
           </div>
         </footer>
